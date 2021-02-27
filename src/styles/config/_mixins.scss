@@ -1,0 +1,12 @@
+// Media Queries
+@mixin respMin($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
+
+@mixin respMax($size) {
+  @media screen and (max-width: $size) {
+    @content;
+  }
+}

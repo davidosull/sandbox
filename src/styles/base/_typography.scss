@@ -1,0 +1,31 @@
+// Sans
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
+
+// Serif
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap");
+
+// Mono
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
+
+// Type Scale
+p {
+  @include fontSize(16);
+}
+h1 {
+  font-size: clamp(4.13rem, 3vw, 5.16rem);
+}
+h2 {
+  font-size: clamp(3.583rem, 3vw, 4.3rem);
+}
+h3 {
+  font-size: clamp(2.986rem, 3vw, 3.583rem);
+}
+h4 {
+  font-size: clamp(2.488rem, 3vw, 2.986rem);
+}
+h5 {
+  font-size: clamp(2.074rem, 3vw, 2.488rem);
+}
+h6 {
+  font-size: clamp(1.728rem, 3vw, 2.074rem);
+}
